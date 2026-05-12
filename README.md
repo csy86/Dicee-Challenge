@@ -1,7 +1,7 @@
-# 주사위 게임 💀
+# 💀 주사위 게임
 
 - HTML / CSS / JS 연습
 - 랜덤 주사위 게임
 - 깃허브 페이지 배포
 
-[배포 주소]()
+[배포 주소](https://csy86.github.io/Dicee-Challenge/)
