@@ -1,8 +1,8 @@
 const img1 = document.querySelector(".img1");
 const img2 = document.querySelector(".img2");
 const title = document.querySelector(".container > h1");
-img1.src = "/Dicee Challenge/images/dice6.png";
-img2.src = "/Dicee Challenge/images/dice6.png";
+img1.src = "./images/dice6.png";
+img2.src = "./images/dice6.png";
 
 title.addEventListener("click", diceGame);
 
@@ -23,7 +23,7 @@ function diceGame() {
 
 // ` `은 문자열 들어가는곳에 다 사용 가능
 function changeDice(res, diceNum) {
-  res.src = `/Dicee Challenge/images/dice${diceNum}.png`;
+  res.src = `./images/dice${diceNum}.png`;
 }
 function setDice() {
   return Math.floor(Math.random() * 6) + 1;
